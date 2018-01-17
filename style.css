@@ -1,0 +1,84 @@
+/*
+Theme Name: Lemus
+Theme URI: http://www.lemuscode.mx
+Description: Tema bien vergas de WordPress.
+Author: Angel Lemus
+Author URI: http://www.lemuscode.mx
+Version: 1.0
+*/
+/*
+Esquema de colores:
+#003840
+#005A5B
+#007369
+#008C72
+#02A676
+#F0C419
+#00A1D9
+#111111
+tomato
+
+*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+body{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+a{
+	color:#00A1D9;
+}
+a:hover{
+	color: #9BCDC9;
+}
+hr{
+	margin: 6px 0px;
+}
+
+.cuerpo_general{
+/*inicia en el header y termina en el footer*/
+	width: 100%;
+	padding-top: 290px;
+	display:flex;
+	justify-content: space-around;
+	position: relative;
+	flex-wrap:wrap;
+}
+
+@media only screen and (max-width: 700px) {
+	.cuerpo_general{
+		padding-top: 65px;
+		display: block;
+		justify-content: none;
+	}
+
+}
+/* Meta Data */
+.meta_data{
+	font-size: 16px;
+	color:black;
+	text-align: center;
+}
+.meta_data span{
+	margin: 6px 6px;
+	display: block;
+}
+.meta_data i{
+	font-size: 24px;
+}
+.meta_data a{
+	text-decoration: none;
+	color:black;
+}
+
+
+
+
+
+
+
+
