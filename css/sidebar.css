@@ -1,0 +1,138 @@
+
+.sidebar{
+	width: 24%;
+	margin:1px 0.5% 25px 0.5%;
+}
+
+/*Estilos Side bars*/
+.sidebar_post > .sidebar{
+	width: 100%;
+}
+.sidebar_post .sidebar .widget{
+	background-color: white;
+	box-shadow: none;
+}
+.sidebar .gravatar{
+	padding: 6px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sidebar .grav_author{
+	padding: 6px;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	cursor: pointer;
+}
+.sidebar .grav_author:hover{
+	color:tomato;
+}
+.sidebar .widget{
+	border-radius: 2px;
+	margin-bottom: 12px;
+	background-color: white;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.sidebar .widget h4{
+	padding: 12px 12px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.sidebar .widget ul{
+	list-style: none;
+	padding: 9px;
+	font-size: 14px;
+}
+.sidebar .widget ul li{
+	margin-bottom: 12px;
+}
+.sidebar .widget ul a{
+	text-decoration: none;
+	color:#0362A5;
+}
+.sidebar .widget ul a:hover{
+	color:#39ACFD;
+}
+.sidebar .widget div{
+	padding: 3px 6px;
+	font-size: 14px;
+}
+.sidebar .widget .tagcloud{
+	padding: 3px 6px 6px 6px;
+	text-align: center;
+}
+.sidebar .widget .tagcloud a{
+	list-style: none;
+	text-decoration: none;
+	color:#0362A5;
+	padding: 4px 6px;
+	margin: 1px;
+	display: inline-block;
+	border-radius: 4px;
+	transition: all 0.3s ease-out;
+}
+.sidebar .widget .tagcloud a:hover{
+	background-color: #C9C9C9;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.sidebar .widget .calendar_wrap{
+	padding: 0 !important;
+	text-align: center;
+}
+.sidebar .widget .calendar_wrap table{
+	width: 100%;
+}
+.sidebar .widget .calendar_wrap table caption{
+	padding: 12px 6px;
+	font-weight: bold;
+}
+.sidebar .widget .calendar_wrap table td{
+	padding: 12px;
+}
+.sidebar .widget .calendar_wrap table a{
+	list-style: none;
+	text-decoration: none;
+	
+	color:#39ACFD;
+}
+.sidebar .widget .calendar_wrap table a:hover{
+	color:#0362A5;
+}
+.sidebar .widget form.searchform{
+	padding: 6px;
+	display: flex;
+}
+.sidebar .widget form.searchform label{
+	display: none;
+}
+
+.sidebar .widget form.searchform input[type="text"]{
+	padding: 6px 9px;
+	border-radius: 2px;
+	border:1px solid #DCDCDC;
+	font-size: 16px;
+}
+.sidebar .widget form.searchform input[type="submit"]{
+	background-color: tomato;
+	font-size: 16px;
+	color:white;
+	padding: 4px 12px;
+	border: 2px solid tomato;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+.sidebar .widget form.searchform input[type="submit"]:hover{
+	background-color: #FD7C65;
+	border: 2px solid  #FD7C65;
+}
+@media only screen and (max-width: 700px) {
+	.sidebar{
+		width: 95%;
+		margin: 50px auto 25px;
+	}
+	.sidebar_post .sidebar{
+		width: 95%;
+		margin: 50px auto 25px;
+	}
+}
